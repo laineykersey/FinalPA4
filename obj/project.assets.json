@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lainey\\source\\repos\\MIS321\\PA4\\PA4-laineykersey\\PA4-laineykersey.csproj",
+      "projectUniqueName": "C:\\Users\\Lainey\\source\\repos\\MIS321\\PA4\\PA4-laineykersey\\FinalPA4\\PA4-laineykersey.csproj",
       "projectName": "PA4-laineykersey",
-      "projectPath": "C:\\Users\\Lainey\\source\\repos\\MIS321\\PA4\\PA4-laineykersey\\PA4-laineykersey.csproj",
+      "projectPath": "C:\\Users\\Lainey\\source\\repos\\MIS321\\PA4\\PA4-laineykersey\\FinalPA4\\PA4-laineykersey.csproj",
       "packagesPath": "C:\\Users\\Lainey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lainey\\source\\repos\\MIS321\\PA4\\PA4-laineykersey\\obj\\",
+      "outputPath": "C:\\Users\\Lainey\\source\\repos\\MIS321\\PA4\\PA4-laineykersey\\FinalPA4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lainey\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -13,6 +13,7 @@ namespace PA4_laineykersey
         {
             System.Console.WriteLine("Welcome to the Battle of Calypso's Maelstrom, press any key to continue");
             Console.ReadKey();
+            System.Console.WriteLine("Let's Play!");
             FirstMenu();
         }
         
@@ -157,12 +158,12 @@ namespace PA4_laineykersey
                     {
                         if(damage >= 0)
                         {
-                            second.Health -= damage;
+                            first.Health -= damage;
                             System.Console.WriteLine("Damage done: " + damage);
                         }
-                        else if(damage < 0)
+                        else
                         {
-                            second.defendBehavior.Defend();
+                            first.defendBehavior.Defend();
                         }
                     } 
                 }
@@ -173,12 +174,12 @@ namespace PA4_laineykersey
                     {
                         if(damage > 0)
                         {
-                            second.Health -= damage;
+                            first.Health -= damage;
                             System.Console.WriteLine("Damage done: " + damage);
                         }
-                        else if(damage < 0)
+                        else
                         {
-                            second.defendBehavior.Defend();
+                            first.defendBehavior.Defend();
                         }
                     } 
                 }
@@ -204,12 +205,12 @@ namespace PA4_laineykersey
                     {
                         if(damage > 0)
                         {
-                            first.Health -= damage;
+                            second.Health -= damage;
                             System.Console.WriteLine("Damage: " + damage);
                         }
-                        else if(damage < 0)
+                        else
                         {
-                            first.defendBehavior.Defend();
+                            second.defendBehavior.Defend();
                         }
                     } 
                 }
@@ -220,12 +221,12 @@ namespace PA4_laineykersey
                     {
                         if(damage > 0)
                         {
-                            first.Health -= damage;
+                            second.Health -= damage;
                             System.Console.WriteLine("Damage: " + damage);
                         }
-                        else if(damage < 0)
+                        else
                         {
-                            first.defendBehavior.Defend();
+                            second.defendBehavior.Defend();
                         }
                     } 
                 }
